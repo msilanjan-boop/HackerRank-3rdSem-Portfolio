@@ -8,7 +8,7 @@
 - **Programming Language:** Java 15
 
 ## HackerRank Profile
-[Visit My HackerRank Profile](PASTE_YOUR_HACKERRANK_PROFILE_LINK_HERE)
+[Visit My HackerRank Profile](https://www.hackerrank.com/profile/msilanjan)
 
 ## Problems Solved
 
