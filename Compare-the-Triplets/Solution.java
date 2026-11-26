@@ -1,28 +1,24 @@
 import java.util.*;
 
 public class Solution {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
-        sc.nextLine();
+        int[] alice = new int[3];
+        int[] bob = new int[3];
 
-        HashMap<String, Integer> frequency = new HashMap<>();
+        for (int i = 0; i < 3; i++) alice[i] = sc.nextInt();
+        for (int i = 0; i < 3; i++) bob[i] = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            String s = sc.nextLine();
-            frequency.put(s, frequency.getOrDefault(s, 0) + 1);
+        int aliceScore = 0;
+        int bobScore = 0;
+
+        for (int i = 0; i < 3; i++) {
+            if (alice[i] > bob[i]) aliceScore++;
+            else if (alice[i] < bob[i]) bobScore++;
         }
 
-        int q = sc.nextInt();
-        sc.nextLine();
-
-        for (int i = 0; i < q; i++) {
-            String query = sc.nextLine();
-            System.out.println(frequency.getOrDefault(query, 0));
-        }
-
+        System.out.println(aliceScore + " " + bobScore);
         sc.close();
     }
 }
