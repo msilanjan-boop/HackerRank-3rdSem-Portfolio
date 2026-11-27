@@ -1,8 +1,9 @@
-# Time Conversion
+# Dynamic Array
 
-HackerRank Problem 3
+HackerRank Problem 2
 
 Language: Java 15
 
-Time Complexity: O(1)
-Space Complexity: O(1)
+Time Complexity: O(N + Q)
+
+Space Complexity: O(N + Q)
