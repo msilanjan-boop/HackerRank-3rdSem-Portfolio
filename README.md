@@ -40,7 +40,7 @@
 
 ## HackerRank Badges
 
-![Problem Solving 3 Star Badge](problem-solving-3-star.png)
+![Problem Solving 3 Star Badge](problem-solving-3-star.png.png)
 
 ## Accepted Submission Screenshots
 Add screenshots of all five accepted HackerRank submissions here.
