@@ -39,7 +39,8 @@
 - Time and Space Complexity Analysis
 
 ## HackerRank Badges
-Add your HackerRank skill badge screenshots here.
+
+![Problem Solving 3 Star Badge](problem-solving-3-star.png)
 
 ## Accepted Submission Screenshots
 Add screenshots of all five accepted HackerRank submissions here.
